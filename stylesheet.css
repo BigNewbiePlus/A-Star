@@ -1,0 +1,52 @@
+@charset "utf-8";
+/* CSS Document */
+
+		body {
+			background-color: #cccccc;
+		}
+		#map {
+			position:relative;		
+		}
+		.hex_white {
+			background: url("images/hex_white.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_white:hover {
+			background: url("images/hex_blue.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_green {
+			background: url("images/hex_green.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_green:hover {
+			background: url("images/hex_white.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_blue {
+			background: url("images/hex_blue.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_G {
+			background: url("images/hex_G.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}
+		.hex_tree {
+			position:relative;
+			background: url("images/hex_tree.png") top left no-repeat;
+	    width: 40px;
+      height: 60px;
+      font-size:8px;
+		}

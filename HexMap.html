@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hexagon Map</title>
+		<link type="text/css" rel="stylesheet" href="stylesheet.css"/>
+		<script type="text/javascript" src="javascript.js"></script>
+    <meta charset="utf-8">
+	<style type="text/css">
+	body,td,th {
+	color: #000;
+}
+    </style>
+	</head>
+	<body bgcolor="#CCCCCC" text="#000000" link="#CCCCCC">
+
+		<h3>Javascript implementation of A* Pathfinding on Hexagons Map</h3>
+		<p>Click on a field to put obstacle - Fang Denghui<br></p>
+		<button onclick=	"remove_path();
+        					path(document.getElementById('x1').value,
+                            document.getElementById('y1').value,
+                            document.getElementById('x2').value,
+                            document.getElementById('y2').value);">Draw Path</button>
+	X1:<input id="x1" size="4px"></input>
+	Y1:<input id="y1" size="4px"></input>
+		
+	X2:<input id="x2" size="4px"></input>
+	Y2:<input id="y2" size="4px"></input>
+		
+	<div id="map" class="map">  </div>
+	<div><script>window.onload=draw_map();</script>
+	</div>
+	</body>
+</html>
